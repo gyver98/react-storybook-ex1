@@ -10,6 +10,8 @@ storiesOf('Components', module)
       <Name name="Hello storybook" />
       <h2>Highlighted</h2>
       <Name name="Hello storybook" type="highlight" />
+      <h2>Gradient</h2>
+      <Name name="Hello storybook" type="gradient" />
       <h2>Disabled</h2>
       <Name name="Hello storybook" type="disabled" />
     </div>

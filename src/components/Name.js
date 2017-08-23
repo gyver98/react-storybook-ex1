@@ -6,7 +6,7 @@ const Name = (props) => (
 )
 
 Name.propTypes = {
-  type: React.PropTypes.oneOf(['highlight', 'disabled']),
+  type: React.PropTypes.oneOf(['highlight','gradient', 'disabled']),
 }
 
 export default Name;

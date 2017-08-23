@@ -11,6 +11,10 @@
   background: #dc143c;
 }
 
+.gradient {
+  background: linear-gradient(#073,#0fa);
+}
+
 .disabled {
   background: #999;
 }
