@@ -1,7 +1,11 @@
-import { configure } from '@kadira/storybook';
+import { configure, addDecorator } from '@kadira/storybook';
+import React from 'react';
 
-function loadStories() {
-  require('../src/stories');
-}
+configure(() => {
+    const req = require.context('../src', true, /stories.js$/);
+    req.keys().forEach((filename) => req(filename));
+  },
+module
+);
 
 configure(loadStories, module);
